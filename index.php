@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -24,7 +24,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
-    <title>Login #8</title>
+    <title>Clube Do Boné</title>
   </head>
   <body>
   
@@ -88,7 +88,7 @@
   </div>
 
     <footer style="text-align: center;">
-      <p> Calculadora de fretes da Emporio Multimarcas <br>
+      <p> Calculadora de fretes da Clube do Boné <br>
       Desenvolvido e mantido por <a href="https://api.whatsapp.com/send?phone=5587988754442&text=Ol%C3%A1,%20gostaria%20de%20um%20or%C3%A7amento%20para%20um%20site/sistema">Matheus Souza</a></p>
     </footer>
     <script src="js/popper.min.js"></script>
