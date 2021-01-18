@@ -29,7 +29,7 @@ function calcular() {
             comprimento = 50
             break;
     }
-    var dados = '{ "from": { "postal_code": "56304260", "address": "Rua Dom Vital", "number": "1" }, "to": {"postal_code": "' + $("#cep").val() + '",  "address": "Endereço do destinatário", "number": "2" }, "package": {"weight": '+peso+',"width": '+largura+',"height": '+altura+',"length": '+comprimento+'} }';
+    var dados = '{ "from": { "postal_code": "48904087", "address": "Avenida Flaviano Guimarães", "number": "1" }, "to": {"postal_code": "' + $("#cep").val() + '",  "address": "Endereço do destinatário", "number": "2" }, "package": {"weight": '+peso+',"width": '+largura+',"height": '+altura+',"length": '+comprimento+'} }';
     console.log(dados);
     $.ajax({
         type: 'POST',
