@@ -1,3 +1,11 @@
+<?php
+require_once 'contador.php';
+
+$contador = new Contador();
+
+$contador->contar();
+
+?>
 <!doctype html>
 <html lang="pt-BR">
   <head>
