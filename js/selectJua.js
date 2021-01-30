@@ -19,7 +19,7 @@ function calcular() {
         case "30":
             peso = 3.400
             altura = 35
-            largura = 40
+            largura = 28
             comprimento = 40
             break;
         case "50":
@@ -52,7 +52,8 @@ function calcular() {
                         '<td>' + obj.company['name'] + '</td>' +
                         '<td>' + obj.name + '</td>' +
                         '<td>R$ ' + obj.price + '</td>' +
-                        '<td> <a href="https://api.whatsapp.com/send?phone=5587988318209&text=*Meu%20Pedido*%0D*'+unidades+'Unidades*%0D*Frete:*%20R$%20'+obj.price+'%0D*Tipo:*%20'+obj.name+'%20" title="Finalizar Pedido"><i class="fas fa-check" style="color: green"></i></a> </td>' +
+						'<td>' + obj.delivery_range['min'] +' - '+ obj.delivery_range['max'] + ' dias úteis</td>' +
+                        '<td> <a href="https://api.whatsapp.com/send?phone=5587988318209&text=*Meu%20Pedido*%0D*'+unidades+'Unidades*%0D*Frete:*%20R$%20'+obj.price+'%0D*Tipo:*%20'+obj.name+'%20" title="Finalizar Pedido" style="color: #38d39f;">Comprar</a> </td>' +
                         '</tr>';
                     i++;
                 }

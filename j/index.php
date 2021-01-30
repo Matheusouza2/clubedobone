@@ -83,6 +83,7 @@ $contador->contar();
                 <th>Transportadora</th>
                 <th>Tipo de envio</th>
                 <th>Preço</th>
+				<th>Prazo</th>
                 <th></th>
               </tr>
             </thead>
